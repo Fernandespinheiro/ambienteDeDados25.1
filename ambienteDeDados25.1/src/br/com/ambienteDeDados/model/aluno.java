@@ -1,12 +1,12 @@
 package br.com.ambienteDeDados.model;
 
 import java.util.Date;
-public class biblioteca {
+public class aluno {
 	
 	private int id;
 	private String name;
 	private int idade;
-	private Date dataCadastro;
+	private Date dataDeNascimento;
 	
 	public int getId() {
 		return id;
@@ -26,11 +26,11 @@ public class biblioteca {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public Date getDataCadastro() {
-		return dataCadastro;
+	public Date getDataDeNascimento() {
+		return dataDeNascimento;
 	}
-	public void setDataCadastro(Date dataCadastro) {
-		this.dataCadastro = dataCadastro;
+	public void setDataDeNascimento(Date dataDeNascimento) {
+		this.dataDeNascimento = dataDeNascimento;
 	}
 	
 }
