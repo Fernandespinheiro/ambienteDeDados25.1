@@ -5,7 +5,7 @@ public class aluno {
 	
 	private int id;
 	private String name;
-	private int idade;
+	private int matricula;
 	private Date dataDeNascimento;
 	
 	public int getId() {
@@ -20,11 +20,11 @@ public class aluno {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getIdade() {
-		return idade;
+	public int getmatricula() {
+		return matricula;
 	}
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setmatricula(int matricula) {
+		this.matricula = matricula;
 	}
 	public Date getDataDeNascimento() {
 		return dataDeNascimento;
